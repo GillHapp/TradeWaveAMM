@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Add background image */
+  background-image: linear-gradient(rgba(31, 31, 46, 0.9),
+      rgba(31, 31, 46, 0.9)),
+    url('https://img.freepik.com/free-vector/digital-glowing-technology-lines-with-metwork-wire-mesh_1017-28404.jpg?t=st=1732260309~exp=1732263909~hmac=57f02731821272c71981691387025beebb81769bbf5b79a2df6ae6053bfa1f07&w=2000');
+  background-size: cover;
+  /* Ensure the image covers the entire viewport */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Prevent tiling */
+  background-attachment: fixed;
+  /* Make it fixed on scroll */
+
+  /* Text styling */
+  color: #ffffff;
+  /* White text to contrast with the background */
+}
